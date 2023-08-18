@@ -12,6 +12,12 @@ body {
     color: aqua;
     text-shadow: black;
     }
+
+@media (max-width: 480px) {
+    body{
+    font-size: 16px;
+}
+}
 #Introduction {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -58,7 +64,7 @@ input, select, textarea {
     margin-bottom: 10px;
 }
 
-textarea {
+#message {
     height: 80px;
 }
 
@@ -78,6 +84,7 @@ textarea {
 .button {
     background-color: blueviolet;
     color: aqua;
+    margin-left: auto;
 }
 
 .Education-board{
@@ -88,3 +95,8 @@ textarea {
 .school-icon, .school-text {
     padding: auto;
    }
+
+hr {
+    border: 1px darkmagenta;
+    border-style: groove;
+}
